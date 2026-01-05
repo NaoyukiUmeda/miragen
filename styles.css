@@ -125,8 +125,8 @@ body {
     left: 20px;
     right: 20px;
     bottom: 20px;
-    background: var(--primary-blue);
-    transform: scaleX(0);
+    background: linear-gradient(to bottom, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.6) 100%);
+    transform: scaleX(1);
     transform-origin: center right;
     transition: transform 1s cubic-bezier(0.42, 0, 0.6, 1.19);
     transition-delay: 0.5s;
@@ -571,7 +571,9 @@ body {
 .map-placeholder {
     width: 100%;
     height: 100%;
-    background: linear-gradient(135deg, var(--primary-blue) 0%, #4a90e2 100%);
+    background-image: url('https://maps.googleapis.com/maps/api/staticmap?center=35.6465,139.7102&zoom=15&size=480x400&markers=color:blue%7C35.6465,139.7102&key=AIzaSyDUMmSsssssssssssssssssssssssssss');
+    background-size: cover;
+    background-position: center;
     border-radius: 10px;
     box-shadow: 40px 50px 30px rgba(0, 0, 0, 0.1);
     transition: transform 3s ease-in-out;
