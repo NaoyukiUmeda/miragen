@@ -30,7 +30,7 @@ body {
     left: 0;
     width: 100%;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(102, 102, 102, 0) 100%);
-    padding: 48px;
+    padding: 20px 48px;
     z-index: 1000;
     transition: all 0.8s cubic-bezier(0.4, 0.4, 0, 1);
     transition-delay: 1.4s;
