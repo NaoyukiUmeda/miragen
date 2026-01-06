@@ -208,12 +208,20 @@ body {
     font-size: 20px;
     font-weight: 600;
     line-height: 1.4;
+    margin-bottom: 12px;
+}
+
+.hero-subheading {
+    font-family: var(--font-jp);
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.4;
     margin-bottom: 24px;
 }
 
 .hero-body {
     font-family: var(--font-jp);
-    font-size: 48px;
+    font-size: 16px;
     font-weight: 700;
     letter-spacing: 0.05em;
     line-height: 1.6;
@@ -832,4 +840,57 @@ body {
         font-size: 20px;
         margin-bottom: 24px;
     }
+}
+
+/* Service subtitle */
+.service-subtitle {
+    font-family: var(--font-jp);
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    color: #333;
+}
+
+/* Solution title en */
+.solution-title-en {
+    font-family: var(--font-en);
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--primary-blue);
+    margin-bottom: 8px;
+}
+
+/* Technology CTA */
+.technology-cta-text {
+    font-family: var(--font-jp);
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 32px auto;
+    max-width: 800px;
+    text-align: center;
+}
+
+.technology-cta {
+    display: inline-block;
+    padding: 16px 48px;
+    background: var(--primary-blue);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: var(--font-jp);
+    font-size: 16px;
+    font-weight: 600;
+    transition: background 0.3s ease;
+}
+
+.technology-cta:hover {
+    background: #1a4d8f;
+}
+
+/* Contact CTA improvements */
+.cta-subheading {
+    font-family: var(--font-jp);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 24px;
 }
