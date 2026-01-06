@@ -649,7 +649,7 @@ body {
 /* Footer */
 .footer-section {
     background: var(--text-dark);
-    padding: 48px 48px 96px;
+    padding: 24px 48px;
 }
 
 .footer-container {
@@ -929,4 +929,15 @@ body {
 
 .hero-section.loaded .hero-overlay {
     transform: scaleX(1);
+}
+
+/* VALUES section - larger title */
+.value-title-en {
+    font-family: var(--font-en);
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    line-height: 1.2;
+    margin-bottom: 16px;
+    color: var(--primary-blue);
 }
