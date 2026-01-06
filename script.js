@@ -104,9 +104,9 @@ window.addEventListener('load', () => {
     
     // Trigger hero overlay animation
     setTimeout(() => {
-        const heroOverlay = document.querySelector('.hero-overlay');
-        if (heroOverlay) {
-            heroOverlay.style.transform = 'scaleX(1)';
+        const heroSection = document.querySelector('.hero-section');
+        if (heroSection) {
+            heroSection.classList.add('loaded');
         }
     }, 500);
     

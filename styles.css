@@ -121,15 +121,15 @@ body {
 
 .hero-overlay {
     position: absolute;
-    top: 20px;
-    left: 20px;
-    right: 20px;
-    bottom: 20px;
-    background: linear-gradient(to bottom, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.6) 100%);
-    transform: scaleX(1);
-    transform-origin: center right;
-    transition: transform 1s cubic-bezier(0.42, 0, 0.6, 1.19);
-    transition-delay: 0.5s;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent 0%, rgba(41, 98, 255, 0.7) 100%);
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 1.2s cubic-bezier(0.42, 0, 0.6, 1.19);
+    transition-delay: 0.8s;
     z-index: 2;
     animation: overlayReveal 1s 0.5s cubic-bezier(0.42, 0, 0.6, 1.19) forwards;
 }
@@ -156,6 +156,7 @@ body {
     max-width: 1280px;
     padding: 180px 48px 96px;
     color: var(--text-white);
+    text-align: left;
 }
 
 .hero-text-group {
@@ -348,10 +349,10 @@ body {
 .service-image-overlay {
     position: absolute;
     top: 0;
-    left: 0;
-    width: 100%;
+    right: 0;
+    width: 50%;
     height: 100%;
-    background: rgba(30, 90, 159, 0.3);
+    background: linear-gradient(90deg, transparent 0%, rgba(41, 98, 255, 0.85) 100%);
     z-index: 1;
 }
 
@@ -924,4 +925,8 @@ body {
 .services-container {
     max-width: 1280px;
     margin: 0 auto;
+}
+
+.hero-section.loaded .hero-overlay {
+    transform: scaleX(1);
 }
