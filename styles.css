@@ -304,10 +304,10 @@ body {
 
 .section-title {
     font-family: var(--font-en);
-    font-size: 64px;
+    font-size: 72px;
     font-weight: 600;
     line-height: 1;
-    margin-bottom: 24px;
+    margin-bottom: 35px;
     opacity: 0;
     transform: translateY(48px);
     animation: fadeInUp 1s 0.3s forwards;
@@ -319,11 +319,11 @@ body {
 
 .section-subtitle {
     font-family: var(--font-jp);
-    font-size: 28px;
-    font-weight: 700;
+    font-size: 20px;
+    font-weight: 400;
     letter-spacing: 0.05em;
-    line-height: 1.6;
-    margin-bottom: 48px;
+    line-height: 1.8;
+    margin-bottom: 96px;
     opacity: 0;
     animation: fadeIn 0.8s 0.5s forwards;
 }
@@ -336,8 +336,9 @@ body {
 
 .service-card {
     display: flex;
-    align-items: center;
-    gap: 48px;
+    align-items: flex-start;
+    gap: 80px;
+    margin-bottom: 120px;
 }
 
 .service-card.reverse {
@@ -346,8 +347,8 @@ body {
 
 .service-image {
     position: relative;
-    flex: 0 0 60%;
-    height: 520px;
+    flex: 0 0 55%;
+    height: 480px;
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 40px 50px 30px rgba(0, 0, 0, 0.1);
@@ -392,17 +393,18 @@ body {
 }
 
 .service-content {
-    flex: 0 0 calc(40% - 48px);
+    flex: 1;
     display: flex;
     flex-direction: column;
+    padding: 48px 0;
 }
 
 .service-title {
-    font-family: var(--font-jp);
-    font-size: 32px;
-    font-weight: 800;
-    line-height: 1.4;
-    margin-bottom: 24px;
+    font-family: var(--font-en);
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 16px;
     opacity: 0;
     transform: translateY(48px);
     animation: fadeInUp 1s 0.3s forwards;
@@ -411,10 +413,10 @@ body {
 .service-description {
     font-family: var(--font-jp);
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 400;
     letter-spacing: 0.05em;
-    line-height: 1.6;
-    margin-bottom: 48px;
+    line-height: 1.8;
+    margin-bottom: 0;
     opacity: 0;
     animation: fadeIn 1s 0.4s forwards;
 }
@@ -491,7 +493,7 @@ body {
 .solution-card {
     flex: 0 0 calc(50% - 24px);
     background: var(--text-white);
-    padding: 48px;
+    padding: 64px 48px;
     border-radius: 10px;
     box-shadow: 30px 40px 30px rgba(0, 0, 0, 0.1);
     transition: all 0.8s;
@@ -508,11 +510,11 @@ body {
 
 .solution-title {
     font-family: var(--font-jp);
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 700;
     letter-spacing: 0.05em;
     line-height: 1.4;
-    margin-bottom: 24px;
+    margin-bottom: 16px;
 }
 
 .solution-description {
