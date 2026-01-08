@@ -1002,7 +1002,7 @@ body {
 /* Footer with Contact */
 .footer-section {
     background: var(--text-dark);
-    padding: 96px 48px;
+    padding: 64px 48px;
     position: relative;
     background-size: cover;
     background-position: center;
@@ -1029,35 +1029,35 @@ body {
 
 .footer-contact {
     text-align: center;
-    margin-bottom: 96px;
+    margin-bottom: 48px;
 }
 
 .footer-contact-title {
     font-family: var(--font-en);
-    font-size: 64px;
+    font-size: 48px;
     font-weight: 600;
     color: var(--text-white);
-    margin-bottom: 24px;
+    margin-bottom: 16px;
 }
 
 .footer-contact-subtitle {
     font-family: var(--font-jp);
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
     color: var(--text-white);
-    margin-bottom: 48px;
+    margin-bottom: 32px;
 }
 
 .footer-contact-button {
     display: inline-block;
-    width: 80px;
-    height: 80px;
+    width: 64px;
+    height: 64px;
     background: var(--text-white);
     color: var(--text-dark);
     border-radius: 50%;
     text-decoration: none;
-    font-size: 32px;
-    line-height: 80px;
+    font-size: 28px;
+    line-height: 64px;
     text-align: center;
     transition: all 0.3s;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
