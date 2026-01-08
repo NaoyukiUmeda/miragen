@@ -4,11 +4,24 @@ compatibility_date = "2024-01-01"
 [site]
 bucket = "./"
 
-# Exclude patterns
+# Include only necessary files for deployment
+include = [
+  "index.html",
+  "styles.css",
+  "script.js",
+  "assets/**"
+]
+
+# Exclude everything else
 exclude = [
   ".git/**",
   ".github/**",
   "node_modules/**",
   "*.md",
-  "*.png"
+  "*.png",
+  "*.py",
+  "*.json",
+  "*.txt",
+  "miragen_source.html",
+  "wrangler.jsonc"
 ]
