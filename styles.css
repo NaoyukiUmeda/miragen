@@ -1021,7 +1021,7 @@ body {
 }
 
 .footer-container {
-    max-width: 1280px;
+    max-width: 800px;
     margin: 0 auto;
     position: relative;
     z-index: 2;
@@ -1201,5 +1201,23 @@ body {
     .cta-banner-button {
         padding: 14px 36px;
         font-size: 14px;
+    }
+}
+
+.footer-logo {
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.footer-logo img {
+    max-width: 400px;
+    height: auto;
+    display: inline-block;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .footer-logo img {
+        max-width: 280px;
     }
 }
