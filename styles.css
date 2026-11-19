@@ -1218,3 +1218,45 @@ body {
         margin-top: 32px;
     }
 }
+
+/* PassRescue legal documents */
+.footer-legal {
+    margin: 0 auto 32px;
+    color: var(--text-white);
+    text-align: center;
+}
+
+.footer-legal-title {
+    margin: 0 0 8px;
+    font-family: var(--font-en);
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.footer-legal-links {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 4px 24px;
+}
+
+.footer-legal-links a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+    color: var(--text-white);
+    font-family: var(--font-jp);
+    font-size: 14px;
+    line-height: 1.6;
+    text-underline-offset: 4px;
+}
+
+.footer-legal-links a:hover {
+    text-decoration-thickness: 2px;
+}
+
+.footer-legal-links a:focus-visible {
+    outline: 2px solid var(--text-white);
+    outline-offset: 4px;
+}
